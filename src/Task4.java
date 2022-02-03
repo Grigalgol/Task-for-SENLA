@@ -113,7 +113,6 @@ public class Task4 {
             int x = Integer.parseInt(numbers[k]);
             if (x > max) max = x;
         }
-        System.out.println(max);
 
         //заменим  большем числе * на соответствующее число
         for(int l = 0; l < 7; l++)

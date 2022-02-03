@@ -22,6 +22,6 @@ public class Safe {
 
     public String getDescription() {
         if (things == null) return "";
-        else return Arrays.stream(things).map(Thing::getName).collect(Collectors.joining("+")) + "-" + getCommonValue();
+        else return Arrays.stream(things).map(Thing::getName).collect(Collectors.joining(" + ")) + "=" + getCommonValue();
     }
 }
